@@ -38,12 +38,13 @@ class _DiceRollerState extends State<DiceRoller> {
             // padding: const EdgeInsets.only(
             //   top: 20,
             // ),
+            side: const BorderSide(width: 1, color: Colors.white),
             foregroundColor: Colors.white,
             textStyle: const TextStyle(
-              fontSize: 28,
+              fontSize: 25,
             ),
           ),
-          child: const Text('Roll Dice'),
+          child: const Text('Klik to Roll Dice'),
         )
       ],
     );
